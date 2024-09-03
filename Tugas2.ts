@@ -42,4 +42,16 @@ for(let i = _number4 - 1; i >= 1; i--){
     _hasil += i === 1 ? `${i} = ${_fact}` : `${i} X `;
 
 }
-console.log(_hasil)
+console.log(_hasil);
+
+//Soal no 5
+
+const _number5  : number = 13;
+let _fib: number = 0;
+let _n1: number = 0;
+let _n2 : number = 0;
+
+for (let i = 1; i < _number5 - 1; i++ ){
+console.log(_n1)
+
+}
