@@ -20,4 +20,26 @@ for(let i : number = 2; i < _number2; i++ ){
 }
 console.log(isprime)    
 
+//Soal no 3
+const _number3 : number = 3;
+let _hasil : string = `${_number3} ->`;
+let _sum : number = 0;
+for (let i=1; i<=_number3; i++){
+    _sum += i;
+    _hasil += i === _number3 ? `${i} = ${_sum}`:`${i} + `;
 
+}
+console.log(_hasil);
+
+//Soal no 4
+const _number4 : number = 6;
+_hasil = `${_number4}! -> ${_number4} X`;
+let _fact =  _number4;
+for(let i = _number4 - 1; i >= 1; i--){
+    _fact *= i;
+    console.log(i);
+    console.log(_fact);
+    _hasil += i === 1 ? `${i} = ${_fact}` : `${i} X `;
+
+}
+console.log(_hasil)
